@@ -1,0 +1,43 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Создать
+{% endblock %}
+
+{% block content %}
+  <hr align="center" width="1200" size="50" color="DarkGray" />
+    <br />
+    <div class="container">
+        <div class="card">
+        <img src="https://fotozvezda.ru/wp-content/uploads/2020/01/77b80d2c3d35a5c3f5da9c8c44242c15.png"  align="left" width="200" />
+        <h6>Здесь я нашла все, что мне нужно: уютная атмосфера, профессиональные мастера, которые являются настоящими экспертами в своем деле.</h6>
+         <p>Анна</p>
+    </div>
+    <div class="card">
+        <img src="https://static.tildacdn.com/tild6332-6438-4434-b634-376366336131/otz1_1.jpg"  align="left" width="200" />
+        <h6>Это место, где я всегда получаю качественное обслуживание. Мастера знают свое дело и всегда делают все, чтобы клиенты остались довольны.</h6>
+<p>Александр</p>
+        </div>
+
+  <div class="card">
+    <img src="https://illustrators.ru/uploads/product/image/13779/1.png"  align="center" width="200"  />
+    <h6>Я довольна, что обратилась в эту фирму. Мастера здесь работают на высшем уровне, и результат всегда оправдывает ожидания.</h6>
+<p>Кристина</p>
+
+</div>
+    <h1>Оставь свой отзыв</h1>
+  <form action="annabekking2@gmail.com" method="post" name="commentform" id="commentform">
+    <p><input type="text" name="author" id="author" value="" size="25" />
+    <small> Имя</small>
+    </p>
+    <p><input type="text" name="email" id="email" value="" size="25" />
+    <small> Mail</small>
+    </p>
+    <p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+    </p>
+    <p><input name="submit" type="submit" id="submit" value="Отправить" />
+    </p>
+    </form>
+{% endblock %}
+
+
